@@ -6,6 +6,8 @@ sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import streamlit as st
 from embedchain import App
 
+import os
+
 # Initialize the EmbedChain app
 app = App()
 
