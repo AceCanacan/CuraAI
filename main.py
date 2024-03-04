@@ -13,6 +13,8 @@ app = App()
 handbook_link = "https://www.addu.edu.ph/wp-content/uploads/2022/12/Ateneo-Student-Handbook-2019.pdf"
 app.add(handbook_link)
 
+api_key = os.environ["OPENAI_API_KEY"]
+
 # Streamlit app
 def main():
     st.set_page_config(page_title="CuraAI", page_icon="🔷", layout="wide")
