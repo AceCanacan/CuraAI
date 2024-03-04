@@ -46,9 +46,9 @@ def main():
     # Sample Questions Section
     st.markdown('**Sample Questions You Can Ask:**', unsafe_allow_html=True)
     st.markdown('<ul class="small-font">'
-                '<li>What grade do I need to maintain to keep my scholarship?</li>'
+                '<li>What grade do I need to get a B?</li>'
                 '<li>How can I apply for a leave of absence?</li>'
-                '<li>What are the graduation requirements for Engineering students?</li>'
+                '<li>Can I wear shorts in the school?</li>'
                 '</ul>', unsafe_allow_html=True)
     st.markdown("---")
     # Enhanced Text box for the query with styling
