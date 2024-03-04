@@ -77,6 +77,7 @@ def main():
     </style>
     <div class="footer">
         <p>This is not an official website of the Ateneo institution. It is a project made by Ace, a student in BS Information Systems at Ateneo de Davao University.</p>
+        <p>This app may occasionally provide misleading information, so it's crucial to always cross-check its answers against the student handbook to ensure accuracy.</p>
     </div>
     """, unsafe_allow_html=True)
 
