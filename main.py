@@ -71,7 +71,7 @@ def main():
     }
     </style>
     <div class="footer">
-        <p>This is not an official website of the Ateneo institution. It is a project made by Ace, a student in BS Information Systems at Ateneo de Davao University.</p>
+        <p>QKnight is independently operated and is not officially affiliated with the Ateneo de Davao University. It represents a personal project undertaken by a student and, as such, we strongly advise users to verify the accuracy and reliability of the content provided, as it may occasionally contain misleading information. </p>
     </div>
     """, unsafe_allow_html=True)
 
