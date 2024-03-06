@@ -43,7 +43,7 @@ def main():
     st.markdown('<ul class="small-font">'
                 '<li>What grade do I need to maintain to keep my scholarship?</li>'
                 '<li>How can I apply for a leave of absence?</li>'
-                '<li>What are the graduation requirements for Engineering students?</li>'
+                '<li>What are the requirements to graduate?</li>'
                 '</ul>', unsafe_allow_html=True)
     st.markdown("---")
     # Enhanced Text box for the query with styling
