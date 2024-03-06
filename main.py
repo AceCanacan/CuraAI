@@ -1,3 +1,5 @@
+
+
 import streamlit as st
 from embedchain import App
 
@@ -7,7 +9,7 @@ import os
 app = App()
 
 # Add the student handbook link to the EmbedChain app
-handbook_link = "https://www.addu.edu.ph/wp-content/uploads/2022/12/Ateneo-Student-Handbook-2019.pdf"
+handbook_link = "https://en.wikipedia.org/wiki/Caeleb_Dressel"
 app.add(handbook_link)
 
 api_key = os.environ["OPENAI_API_KEY"]
@@ -41,9 +43,9 @@ def main():
     # Sample Questions Section
     st.markdown('**Sample Questions You Can Ask:**', unsafe_allow_html=True)
     st.markdown('<ul class="small-font">'
-                '<li>What grade do I need to get a B?</li>'
+                '<li>What grade do I need to maintain to keep my scholarship?</li>'
                 '<li>How can I apply for a leave of absence?</li>'
-                '<li>Can I wear shorts in the school?</li>'
+                '<li>What are the graduation requirements for Engineering students?</li>'
                 '</ul>', unsafe_allow_html=True)
     st.markdown("---")
     # Enhanced Text box for the query with styling
@@ -72,7 +74,6 @@ def main():
     </style>
     <div class="footer">
         <p>This is not an official website of the Ateneo institution. It is a project made by Ace, a student in BS Information Systems at Ateneo de Davao University.</p>
-        <p>This app may occasionally provide misleading information, so it's crucial to always cross-check its answers against the student handbook to ensure accuracy.</p>
     </div>
     """, unsafe_allow_html=True)
 
