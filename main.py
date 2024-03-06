@@ -14,10 +14,10 @@ api_key = os.environ["OPENAI_API_KEY"]
 
 # Streamlit app
 def main():
-    st.set_page_config(page_title="CuraAI", page_icon="🔷", layout="wide")
+    st.set_page_config(page_title="QKnight", page_icon="🔷", layout="wide")
 
     # Application Introduction
-    st.title(" 🔷 CuraAI 🔷 : Explore the Ateneo Student Handbook!")
+    st.title(" 🔷 QKnight 🔷 : Explore the Ateneo Student Handbook!")
 
     # Introduction Text
     st.markdown("""
@@ -35,7 +35,7 @@ def main():
     </style>
     """, unsafe_allow_html=True)
     
-    st.markdown('<p class="big-font">Welcome to CuraAI, your AI-powered assistant for navigating the Ateneo de Davao University Student Handbook!</p>', unsafe_allow_html=True)
+    st.markdown('<p class="big-font">Welcome to QKnight, your AI-powered assistant for navigating the Ateneo de Davao University Student Handbook!</p>', unsafe_allow_html=True)
     st.markdown("---")
     
     # Sample Questions Section
