@@ -1,5 +1,3 @@
-
-
 import streamlit as st
 from embedchain import App
 
@@ -9,7 +7,7 @@ import os
 app = App()
 
 # Add the student handbook link to the EmbedChain app
-handbook_link = "https://en.wikipedia.org/wiki/Caeleb_Dressel"
+handbook_link = "https://www.addu.edu.ph/wp-content/uploads/2022/12/Ateneo-Student-Handbook-2019.pdf"
 app.add(handbook_link)
 
 api_key = os.environ["OPENAI_API_KEY"]
